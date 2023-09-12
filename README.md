@@ -15,14 +15,14 @@
 ## Detalhes do aplicativo
 
 - Nesse projeto foi criado uma plataforma que recebe o upload de um ou mais vídeos e cria títulos e legendas utilizando inteligência artificial baseando-se na transcrição e no conteúdo do vídeo enviado.
-Foi abordado diversos conceitos como requisições para API's gratuitas de inteligência artificial, acessibilidade, estilização e componentização com Radix UI.
+Foi abordado diversos conceitos como requisições para API's gratuitas de inteligência artificial, acessibilidade, estilização com Tailwind CSS e Shadcn/ui, além componentização padrão com Radix UI.
 É um projeto excelente para criação de títulos e legendas criativas para enviar um vídeo para o Youtube.
 
 
 ## 🚀 Melhorias implementadas
 - [x] - Componentização com Radix UI
 - [x] - Requisições com Fastify
-- [x] - Estilização com Tailwind CSS
+- [x] - Estilização com Tailwind CSS e shadcn/ui
 - [x] - Biblioteca de icones Feather Icons
 
 
@@ -52,7 +52,8 @@ npm run dev
 [NodeJS](https://nodejs.org/en/download)  
 [Vite](https://vitejs.dev)  
 [Radix UI](https://www.radix-ui.com)
-[Tailwind CSS](https://tailwindcss.com)  
+[Tailwind CSS](https://tailwindcss.com)
+[shadcn/ui](https://ui.shadcn.com)  
 [Fastify](https://fastify.dev)
 [Feather Icons](https://feathericons.com)
 
