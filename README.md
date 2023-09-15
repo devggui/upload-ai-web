@@ -9,13 +9,12 @@
 
 <div style="width:100%; display:flex; align-items:center; gap:16px">
 <img src="./public/preview/desktop-preview.png" width="100%">
-<img src="./public/preview/mobile-preview.png" width="30%">
 </div>
 
 ## Detalhes do aplicativo
 
-- Nesse projeto foi criado uma plataforma que recebe o upload de um ou mais vídeos e cria títulos e legendas utilizando inteligência artificial baseando-se na transcrição e no conteúdo do vídeo enviado.
-Foi abordado diversos conceitos como requisições para API's gratuitas de inteligência artificial, acessibilidade, estilização com Tailwind CSS e Shadcn/ui, além componentização padrão com Radix UI.
+- Nesse projeto foi criado uma plataforma que recebe o upload de um e cria um título ou descrição para o vídeo utilizando inteligência artificial baseando-se na transcrição do conteúdo do vídeo enviado.
+Foi abordado diversos conceitos como requisições para API's gratuitas de inteligência artificial como a openai api, acessibilidade, estilização com Tailwind CSS e Shadcn/ui, além componentização padrão com Radix UI.
 É um projeto excelente para criação de títulos e legendas criativas para enviar um vídeo para o Youtube.
 
 
@@ -23,7 +22,8 @@ Foi abordado diversos conceitos como requisições para API's gratuitas de intel
 - [x] - Componentização com Radix UI
 - [x] - Requisições com Fastify
 - [x] - Estilização com Tailwind CSS e shadcn/ui
-- [x] - Biblioteca de icones Feather Icons
+- [x] - Biblioteca de icones lucide-react
+- [x] - Utilizado a api da OpenAi
 
 
 ## 💻 Como usar o projeto
@@ -47,6 +47,8 @@ npm run dev
 ``` 
 5  Ou acesse o aplicativo através do website [upload.ai]() 
 
+6  Após esses passos, acessar o repositório da [API](https://github.com/devggui/upload-ai-api) e seguir os passo informados no arquivo README.md
+
 
 ## 🌐 Links úteis
 [NodeJS](https://nodejs.org/en/download)  
@@ -56,6 +58,7 @@ npm run dev
 [shadcn/ui](https://ui.shadcn.com)  
 [Fastify](https://fastify.dev)
 [Feather Icons](https://feathericons.com)
+[OpenAi API](https://platform.openai.com)
 
 
 ## 🧑‍💻 Guilherme Henrique
