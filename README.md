@@ -45,7 +45,7 @@ npm install
 ```
 npm run dev
 ``` 
-5  Ou acesse o aplicativo através do website [upload.ai]() 
+<!-- 5  Ou acesse o aplicativo através do website [upload.ai]()  -->
 
 6  Após esses passos, acessar o repositório da [API](https://github.com/devggui/upload-ai-api) e seguir os passo informados no arquivo README.md
 

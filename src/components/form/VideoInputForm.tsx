@@ -153,7 +153,7 @@ export function VideoInputForm(props: VideoInputFormProps) {
 
       <Button 
         data-success={status === 'success'}
-        disabled={status != 'waiting'} 
+        disabled={status != 'waiting' || !videoFile} 
         type="submit" 
         className="w-full data-[success=true]:bg-emerald-400"
       >

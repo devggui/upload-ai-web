@@ -54,7 +54,7 @@ export function App() {
           </div>
 
           <p className="text-sm text-muted-foreground">
-            Lembre-se: você pode utilizar a variavel <code className="text-violet-400">{'{transcription}'}</code> no seu prompts para adicionar o conteúdo da transcrição do vídeo selecionado
+            Lembre-se: você pode utilizar a variavel <code className="text-violet-400">{'{transcription}'}</code> no seu prompt para adicionar o conteúdo da transcrição do vídeo selecionado
           </p>
         </div>
 

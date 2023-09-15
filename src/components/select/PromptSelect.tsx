@@ -37,6 +37,8 @@ export function PromptSelect(props: PromptSelectProps) {
         <SelectValue placeholder="Selecione um prompt..." />
       </SelectTrigger>
       <SelectContent>
+        {!prompts && <span className="block text-xs text-muted-foreground italic">Você não possui prompts cadastrados...</span>}
+
         {prompts?.map(prompt => {
           return (
             <SelectItem key={prompt.id} value={prompt.id}>

@@ -14,10 +14,12 @@ export function Header() {
         
         <Separator orientation="vertical" className="h-6" />
 
-        <Button variant="outline">
-          <Github className="w-4 h-4 mr-2" />
-          Github
-        </Button>
+        <a href="https://github.com/devggui/upload-ai-web" target="_blank">
+          <Button variant="outline">
+              <Github className="w-4 h-4 mr-2" />
+              Github
+          </Button>
+        </a>
       </div>
     </header>
   )
